@@ -1,0 +1,31 @@
+version: "3"
+services:
+  eureka:
+    container_name: eureka-service
+    build: ./eureka-service
+    ports:
+      - 60011:60011
+
+  travel-payout-gateway:
+    container_name: travel-payouts-gateway
+    build: ./travel-payouts-gateway
+    ports:
+      - 60012:60012
+
+  skyscanner-gateway:
+    container_name: skyscanner-gateway
+    build: ./skyscanner-gateway
+    ports:
+      - 60013:60013
+
+  obryan-software-gateway:
+    container_name: obryan-software-gateway
+    build: ./obryan-software-gateway
+    ports:
+      - 60014:60014
+
+  touki-api:
+    container_name: touki-api
+    build: ./toukiApi
+    ports:
+      - 60010:60010

@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://localhost:60010/obryan-software-gateway/GetPricesAPI/StartFlightSearch.aspx?lapinfant=0&child=0&city2=NYC&date1=2021-01-01&youth=0&flightType=1&adults=1&cabin=1&infant=0&city1=LAX&seniors=0&date2=2021-01-02&islive=true' -i -X GET
-----

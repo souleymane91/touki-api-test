@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://localhost:60010/skyscanner-gateway/apiservices/autosuggest/v1.0/SN/XOF/fr-FR/?query=Dakar' -i -X GET
-----

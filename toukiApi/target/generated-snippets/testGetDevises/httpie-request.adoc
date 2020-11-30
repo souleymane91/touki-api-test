@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'http://localhost:60010/skyscanner-gateway/api/v1/devises/'
-----

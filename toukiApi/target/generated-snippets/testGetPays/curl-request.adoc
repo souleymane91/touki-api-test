@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://localhost:60010/travel-payouts-gateway/api/v1/pays' -i -X GET
-----
