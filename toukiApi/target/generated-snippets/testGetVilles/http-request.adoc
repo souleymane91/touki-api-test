@@ -1,0 +1,6 @@
+[source,http,options="nowrap"]
+----
+GET /skyscanner-gateway/apiservices/autosuggest/v1.0/SN/XOF/fr-FR/?query=Dakar HTTP/1.1
+Host: localhost:60010
+
+----

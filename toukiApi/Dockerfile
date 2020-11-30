@@ -1,0 +1,4 @@
+FROM java:11
+
+EXPOSE 60010
+ADD /target/

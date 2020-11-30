@@ -1,0 +1,23 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Type: application/json
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Date: Mon, 30 Nov 2020 19:10:06 GMT
+Expires: -1
+Pragma: no-cache
+Server: RapidAPI-1.2.6
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-RapidAPI-Region: AWS - eu-west-1
+X-RapidAPI-Version: 1.2.6
+X-RateLimit-Start-Flight-Search-Limit: 100
+X-RateLimit-Start-Flight-Search-Remaining: 79
+X-RateLimit-Start-Flight-Search-Reset: 2566128
+Content-Length: 1280
+
+[{"site":"expedia","lowestPrice":100000,"url":"https://www.expedia.com/Flights-Search?trip=oneway&leg1=from%3ALAX%2Cto%3ANYC%2Cdeparture%3A1/1/2021 12:00:00 AMTANYT&passengers=adults%3A1%2Cchildren%3A0%5B11%5Dseniors%3A0%2Cinfantinlap%3AN&options=cabinclass%3Aeconomy&mode=search","pricePer":"Price Per Passenger"},{"site":"hotwire","lowestPrice":105,"url":"https://vacation.hotwire.com/Flights-Search?trip=oneway&leg1=from%3ALAX%2Cto%3ANYC%2Cdeparture%3A01/01/2021TANYT&passengers=adults:1,children:0,seniors:0,infantinlap:N&options=cabinclass%3Aeconomy&mode=search&origref=vacation.hotwire.com","pricePer":"Price Per Passenger"},{"site":"travelocity","lowestPrice":100000,"url":"https://www.travelocity.com/Flights-Search?trip=oneway&leg1=from%3ALAX%2Cto%3ANYC%2Cdeparture%3A1/1/2021 12:00:00 AMTANYT&passengers=adults%3A1%2Cchildren%3A0%5B11%5Dseniors%3A0%2Cinfantinlap%3AN&options=cabinclass%3Aeconomy&mode=search","pricePer":"Price Per Passenger"},{"site":"orbitz","lowestPrice":100000,"url":"https://www.orbitz.com/Flights-Search?flight-type=on&trip=oneway&leg1=from%3ALAX%2Cto%3ANYC%2Cdeparture%3A1/1/2021 12:00:00 AMTANYT&passengers=adults%3A1%2Cchildren%3A0%5B11%5Dseniors%3A0%2Cinfantinlap%3AN&options=cabinclass%3Aeconomy&mode=search","pricePer":"Price Per Passenger"}]
+----

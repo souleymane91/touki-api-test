@@ -1,0 +1,32 @@
+|===
+|Path|Type|Description
+
+|`+Places+`
+|`+Array+`
+|Liste de tous les lieux
+
+|`+Places[].PlaceId+`
+|`+String+`
+|L'id du lieux
+
+|`+Places[].PlaceName+`
+|`+String+`
+|Le nom du lieux
+
+|`+Places[].CountryId+`
+|`+String+`
+|L'id du pays correspondant
+
+|`+Places[].RegionId+`
+|`+String+`
+|L'id de la région
+
+|`+Places[].CityId+`
+|`+String+`
+|L'id de la ville
+
+|`+Places[].CountryName+`
+|`+String+`
+|Le nom du pays
+
+|===

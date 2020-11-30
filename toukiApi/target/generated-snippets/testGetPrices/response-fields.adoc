@@ -1,0 +1,20 @@
+|===
+|Path|Type|Description
+
+|`+[].site+`
+|`+String+`
+|La compagnie correspond au vol
+
+|`+[].lowestPrice+`
+|`+Number+`
+|Le prix le plus bas proposé par la compagnie
+
+|`+[].url+`
+|`+String+`
+|Lien sur le site de la compagnie
+
+|`+[].pricePer+`
+|`+String+`
+|Prix par (ex. Price per passenger)
+
+|===

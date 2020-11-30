@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://localhost:60010/obryan-software-gateway/GetPricesAPI/GetPrices.aspx?SearchID=ap-K3ishzWpPx8EQGua' -i -X GET
+----

@@ -1,0 +1,89 @@
+= Touki API : Documentation
+
+    Version: 1.0.0
+    Auteur: Souleymane Mbaye
+    Date: 28/11/2020
+
+:toc: left
+:sectnums:
+
+Api qui permet d'avoir des informations précises sur les vols entre différents pays.
+Il permet à l'utilisateur de savoir entre autres :
+
+* La liste de tous les pays
+* La liste des vols entres deux pays donnés
+* Les détails d'un vol bien connu: (l'heure du vol, le prix du billet, etc.)
+* Les cinq vols les moins chers en terme de prix du billet
+* etc.
+
+==== Authentification
+Pour accéder à une resource de l'api, il faut d'abord s'authentifier.
+Après authentification avec des accés valides, un token vous sera généré.
+Ce token sera fourni pour toutes les autres resources que allez utiliser.
+
+
+==== Liste des pays
+
+.request
+include::{snippets}/testGetPays/http-request.adoc[]
+
+.response
+include::{snippets}/testGetPays/response-body.adoc[]
+
+.response description
+include::{snippets}/testGetPays/response-fields.adoc[]
+
+
+==== Liste des devises
+
+.request
+include::{snippets}/testGetDevises/http-request.adoc[]
+
+.response
+include::{snippets}/testGetDevises/response-body.adoc[]
+
+.response description
+include::{snippets}/testGetDevises/response-fields.adoc[]
+
+
+==== Liste des lieux (départ / destination)
+
+Avoir la liste des lieux de départ/destination
+
+.request
+include::{snippets}/testGetVilles/http-request.adoc[]
+
+.response
+include::{snippets}/testGetVilles/response-body.adoc[]
+
+.response description
+include::{snippets}/testGetVilles/response-fields.adoc[]
+
+==== Démmarrer la recherche sur les vols
+
+Pour obtenir des informations sur un vol, il faut initier la recherche pour obtenir un "SearchID".
+Ce paramètre est utilisé dans une seconde requete pour obtenir le prix des vols proposés.
+
+L'initialisation de la recherche d'un vol se passe comme suit :
+
+.request
+include::{snippets}/testInitSearchFlight/http-request.adoc[]
+
+.response
+include::{snippets}/testInitSearchFlight/response-body.adoc[]
+
+.response description
+include::{snippets}/testInitSearchFlight/response-fields.adoc[]
+
+
+==== Avoir les détails sur le prix des vols à partir du "SearchID" obtenu
+
+.request
+include::{snippets}/testGetPrices/http-request.adoc[]
+
+.response
+include::{snippets}/testGetPrices/response-body.adoc[]
+
+.response description
+include::{snippets}/testGetPrices/response-fields.adoc[]
+

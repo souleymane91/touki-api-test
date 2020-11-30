@@ -1,0 +1,4 @@
+org\jmg\toukiapi\config\AppParam.class
+org\jmg\toukiapi\controller\HomeController.class
+org\jmg\toukiapi\ToukiApiApplication.class
+org\jmg\toukiapi\config\GatewayConfig.class

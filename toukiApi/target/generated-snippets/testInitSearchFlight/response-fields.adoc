@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|`+SearchID+`
+|`+String+`
+|L'id de la recherche à renseigner pour avoir les détails sur les prix de vol
+
+|===

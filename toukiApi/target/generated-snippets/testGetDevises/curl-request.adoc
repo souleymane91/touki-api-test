@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://localhost:60010/skyscanner-gateway/api/v1/devises/' -i -X GET
+----

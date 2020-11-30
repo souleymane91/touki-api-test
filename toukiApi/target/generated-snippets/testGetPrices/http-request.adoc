@@ -1,0 +1,6 @@
+[source,http,options="nowrap"]
+----
+GET /obryan-software-gateway/GetPricesAPI/GetPrices.aspx?SearchID=ap-K3ishzWpPx8EQGua HTTP/1.1
+Host: localhost:60010
+
+----
